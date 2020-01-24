@@ -261,8 +261,14 @@ a:hover,a:focus,a.active{
 /*=======================================================================
 04.   Socal Media
 =========================================================================*/
+.socal_media ul {
+		display: flex;
+    justify-content: center;
+}
 .socal_media ul li{
-  margin-bottom: 15px;
+  	margin-bottom: 15px;
+    padding: 4px;
+    margin-top: 15px;
 }
 .socal_media ul li a,.owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,.contact_icon,.contact_icon{
@@ -1167,6 +1173,9 @@ ul#menu li a{
 /*===============================================================================
 22.   Contact
 =================================================================================*/
+.contact_info a:hover {
+	color: #e1e1e1;
+}
 .contact_info ul li{
   margin-bottom: 10px;
 }
